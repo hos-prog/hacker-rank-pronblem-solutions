@@ -1,0 +1,12 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT# Enter your code here. Read input from STDIN. Print output to STDOUT
+# Input
+t=int(input())
+st = set(map(int, input().split()))
+
+s=int(input())
+vt = set(map(int, input().split()))
+
+
+my_new = st-vt
+
+print(len(my_new))
