@@ -1,0 +1,11 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+t=int(input())
+st = set(map(int, input().split()))
+
+s=int(input())
+vt = set(map(int, input().split()))
+
+
+my_new = st.union(vt)
+
+print(len(my_new))
